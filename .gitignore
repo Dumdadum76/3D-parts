@@ -1,0 +1,51 @@
+# 3D Printing Files
+*.gcode
+*.gco
+*.g
+
+# Backup files
+*.bak
+*~
+.DS_Store
+
+# Large scan files (consider using Git LFS for these)
+# Uncomment if you want to exclude large files:
+# *.obj
+# *.ply
+# *.stl
+
+# Temporary files
+*.tmp
+*.temp
+
+# Slicer profiles (may contain personal settings)
+# Uncomment if you don't want to share these:
+# *.ini
+# *.json
+
+# Operating system files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if using scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Node modules (if using web tools)
+node_modules/
+
+# Build directories
+build/
+dist/
